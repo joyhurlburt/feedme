@@ -168,7 +168,7 @@
                                 </variation>
                             </label>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="50" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="1Oq-yp-us3">
-                                <rect key="frame" x="0.0" y="139" width="600" height="351"/>
+                                <rect key="frame" x="0.0" y="139" width="600" height="412"/>
                                 <animations/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
@@ -255,28 +255,18 @@
                                     <outlet property="delegate" destination="tuK-lT-R5X" id="hma-ov-GSj"/>
                                 </connections>
                             </tableView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Dietary preferences automatically assumes an omnivorous diet unless specified above" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cxo-Vn-aA5">
-                                <rect key="frame" x="150" y="490" width="300" height="61"/>
-                                <animations/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstAttribute="trailing" secondItem="cxo-Vn-aA5" secondAttribute="trailing" constant="150" id="1ha-1N-Hew"/>
                             <constraint firstItem="1Oq-yp-us3" firstAttribute="leading" secondItem="qXx-lR-Uct" secondAttribute="leading" id="7i1-Jc-x3R"/>
                             <constraint firstItem="1Oq-yp-us3" firstAttribute="top" secondItem="u33-B4-nDb" secondAttribute="bottom" constant="20" id="90Y-mn-cVV"/>
                             <constraint firstAttribute="trailing" secondItem="1Oq-yp-us3" secondAttribute="trailing" id="CPC-Yk-eiE"/>
                             <constraint firstAttribute="trailing" secondItem="g8y-Tq-F2Y" secondAttribute="trailing" id="JdB-Fv-KQc"/>
-                            <constraint firstItem="cxo-Vn-aA5" firstAttribute="leading" secondItem="qXx-lR-Uct" secondAttribute="leading" constant="150" id="TJL-Fq-hWo"/>
                             <constraint firstItem="u33-B4-nDb" firstAttribute="top" secondItem="g8y-Tq-F2Y" secondAttribute="bottom" constant="35" id="YPx-0F-Dwe"/>
                             <constraint firstItem="u33-B4-nDb" firstAttribute="centerX" secondItem="qXx-lR-Uct" secondAttribute="centerX" id="b9B-cs-VIH"/>
-                            <constraint firstItem="U6l-Bt-YQB" firstAttribute="top" secondItem="cxo-Vn-aA5" secondAttribute="bottom" id="dW9-jN-eXB"/>
                             <constraint firstItem="g8y-Tq-F2Y" firstAttribute="leading" secondItem="qXx-lR-Uct" secondAttribute="leading" id="isF-fp-rFR"/>
-                            <constraint firstItem="cxo-Vn-aA5" firstAttribute="top" secondItem="1Oq-yp-us3" secondAttribute="bottom" id="qfA-tN-Ooe"/>
+                            <constraint firstItem="U6l-Bt-YQB" firstAttribute="top" secondItem="1Oq-yp-us3" secondAttribute="bottom" id="jok-iV-7vX"/>
                             <constraint firstItem="g8y-Tq-F2Y" firstAttribute="top" secondItem="qXx-lR-Uct" secondAttribute="top" constant="20" id="zxK-KV-gAe"/>
                         </constraints>
                         <variation key="widthClass=compact">
